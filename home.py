@@ -264,7 +264,8 @@
 
 
 
-
+import os
+os.system("pip install streamlit-lottie")
 import streamlit as st
 from streamlit_lottie import st_lottie
 import requests
