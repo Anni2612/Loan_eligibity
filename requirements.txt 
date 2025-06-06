@@ -3,4 +3,5 @@ pandas
 joblib
 requests
 fpdf
+xgboost
 streamlit-lottie
