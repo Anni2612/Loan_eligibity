@@ -66,7 +66,7 @@ st.markdown("""
 st.markdown('<div class="banner-text">Smarter Loan Decisions, Powered by AI.</div>', unsafe_allow_html=True)
 
 # --- Description Section ---
-st.markdown("###  Whyyyyy We Built This App")
+st.markdown("###  Why We Built This App")
 st.markdown("""
 Applying for a loan is more than a transaction — it’s a step toward building a home, pursuing an education, or growing a dream.
 But for many, it becomes a confusing process filled with jargon, unpredictable outcomes, and silent rejections.
