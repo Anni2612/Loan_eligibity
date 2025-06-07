@@ -102,8 +102,8 @@ st.markdown("""
 
 st.markdown("### ⚠️ Disclaimer", unsafe_allow_html=True)
 st.markdown("""
-**CrediGenie provides predictions based on data models and helps you to make financial advice.**  
-Please consult a certified financial analyst before making major financial decisions.
+**CrediGenie provides predictions based on data models and helps you to make financial decision.**  
+Please consult a certified financial advisor before making major financial decisions.
 """, unsafe_allow_html=True)
 if lottie_predictor:
     st_lottie(lottie_predictor, height=230, speed=1)
