@@ -139,7 +139,7 @@ with st.form("loan_form"):
         coapplicant_income = st.number_input("Coapplicant Income ($)", min_value=0.0, key="coapplicant_income")
 
         st.caption("🔹 Total loan amount you're applying for, in thousands.")
-        loan_amount = st.number_input("Loan Amount (₹ thousands)", min_value=10.0, key="loan_amount")
+        loan_amount = st.number_input("Loan Amount ($ thousands)", min_value=10.0, key="loan_amount")
 
         st.caption("🔹 Loan duration in months.")
         loan_term = st.selectbox("Loan Term (months)", [360, 180, 120, 60], key="loan_term")
