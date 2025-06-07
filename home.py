@@ -178,7 +178,7 @@ if submitted:
     for col, mapping in label_map.items():
         df[col] = df[col].map(mapping)
 
-    model = joblib.load("enhanced_xgboost_loan_model.pkl")
+    model = joblib.load("xgboost_loan_model.pkl")
     with open("best_threshold.txt", "r") as f:
         threshold = float(f.read().strip().split(":")[-1])
 
